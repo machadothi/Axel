@@ -1,5 +1,7 @@
 cmake_minimum_required(VERSION 3.0)
-project(MyProject)
+project(GameEngineProject)
+
+set(CMAKE_CXX_STANDARD 14)
 
 # Build the dynamic library in the Axel directory
 add_subdirectory(Axel)

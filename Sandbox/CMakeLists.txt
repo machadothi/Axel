@@ -1,6 +1,6 @@
 # Set the source files for the main application in the Sandbox directory
 set(APP_SOURCES
-    Application.cpp
+    SandApp.cpp
 )
 
 # Build the main application in the Sandbox directory
