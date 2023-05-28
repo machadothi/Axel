@@ -1,6 +1,7 @@
 # Set the source files for the dynamic library in the Axel directory
 set(LIBRARY_SOURCES
     Application.cpp
+    Log.cpp
 )
 
 # Create the dynamic library in the Axel directory

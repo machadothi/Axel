@@ -3,6 +3,9 @@ project(GameEngineProject)
 
 set(CMAKE_CXX_STANDARD 14)
 
+# Include the directories containing the third-party header files
+include_directories(${CMAKE_CURRENT_SOURCE_DIR}/Axel/vendor/spdlog/include/)
+
 # Build the dynamic library in the Axel directory
 add_subdirectory(Axel)
 
