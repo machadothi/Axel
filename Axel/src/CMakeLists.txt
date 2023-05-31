@@ -1,3 +1,5 @@
+include_directories(${CMAKE_CURRENT_SOURCE_DIR}/Events/)
+
 # Set the source files for the dynamic library in the Axel directory
 set(LIBRARY_SOURCES
     Application.cpp
